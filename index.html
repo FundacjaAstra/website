@@ -1,209 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Fundacja ASTRA</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Fundacja ASTRA</title>
+  <meta name="description" content="Fundacja ASTRA, pomagamy w IT">
+  <meta name="keywords" content="">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: MyResume
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-  </head>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-  <body class="index-page">
-    <header
-      id="header"
-      class="header d-flex flex-column justify-content-center"
-    >
-      <i class="header-toggle d-xl-none bi bi-list"></i>
+</head>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li>
-            <a href="#hero" class="active"
-              ><i class="bi bi-house navicon"></i><span>Home</span></a
-            >
-          </li>
-          <li>
-            <a href="#about"
-              ><i class="bi bi-person navicon"></i><span>O nas</span></a
-            >
-          </li>
-          <li>
-            <a href="#donations"
-              ><i class="bi bi-cash-stack navicon"></i><span>Darowizny</span></a
-            >
-          </li>
-          <li>
-            <a href="#contact"
-              ><i class="bi bi-envelope navicon"></i><span>Kontakt</span></a
-            >
-          </li>
-          <li>
-            <a href="#partnership"
-              ><i class="bi bi-heart navicon"></i><span>Partnerzy</span></a
-            >
-          </li>
-          <li>
-            <a href="#statute"
-              ><i class="bi bi-file-text navicon"></i><span>Statut</span></a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
+<body class="index-page">
 
-    <main class="main">
-      <!-- Home Section -->
-      <section id="hero" class="hero section light-background">
-        <img src="assets/img/hero-bg.jpg" alt="" />
+  <header id="header" class="header d-flex flex-column justify-content-center">
 
-        <div class="container" data-aos="zoom-out">
-          <div class="row justify-content-center">
-            <div class="col-lg-9">
-              <h2>Fundacja ASTRA</h2>
-              <p>
-                Jesteśmy po to by
-                <span
-                  class="typed"
-                  data-typed-items="ułatwiać., szkolić., łączyć., pomagać."
-                >
-                </span
-                ><span
-                  class="typed-cursor typed-cursor--blink"
-                  aria-hidden="true"
-                ></span>
-              </p>
-              <div class="social-links">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-tiktok"></i></a>
-              </div>
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>O nas</span></a></li>
+        <li><a href="#donations"><i class="bi bi-cash-stack navicon"></i><span>Darowizny</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Kontakt</span></a></li>
+        <li><a href="#partners"><i class="bi bi-heart navicon"></i><span>Partnerzy</span></a></li>
+        <li><a href="#statute"><i class="bi bi-file-text navicon"></i><span>Statut</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="">
+
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Fundacja ASTRA</h2>
+            <p>Jesteśmy po to by <span class="typed" data-typed-items="ułatwiać., szkolić., łączyć., pomagać."></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+              <a href=""><i class="bi bi-tiktok"></i></a>
             </div>
           </div>
         </div>
-      </section>
-      <!-- /Home Section -->
+      </div>
 
-      <div data-include="sections/aboutUs.html"></div>
-      <div data-include="sections/donations.html"></div>
-      <div data-include="sections/contact.html"></div>
-      <div data-include="sections/partnership.html"></div>
-      <div data-include="sections/statute.html"></div>
-      <!-- <div data-include="sections/testimonials.html"></div> -->
-      <!-- <div data-include="sections/stats.html"></div> -->
-      <!-- <div data-include="sections/projects.html"></div> -->
-    </main>
+    </section><!-- /Hero Section -->
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        document.querySelectorAll("[data-include]").forEach((el) => {
-          fetch(el.getAttribute("data-include"))
-            .then((response) => response.text())
-            .then((data) => (el.innerHTML = data))
-            .catch((error) =>
-              console.error(
-                "Error during file load",
-                el.getAttribute("data-include"),
-                error
-              )
-            );
-        });
-      });
-    </script>
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-    <footer id="footer" class="footer position-relative light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>O nas</h2>
+        <p>Fundacja ASTRA została założona z misją wspierania osób w potrzebie oraz promowania wartości edukacyjnych i społecznych. Naszym celem jest pomoc dzieciom, młodzieży i dorosłym w rozwoju ich umiejętności i pasji, a także poprawy jakości życia w społecznościach z utrudnionym dostępem do edukacji. Nasza praca opiera się na wolontariacie i współpracy z organizacjami partnerskimi.</p>
+      </div><!-- End Section Title -->
+
       <div class="container">
-        <h3 class="sitename">Fundacja ASTRA</h3>
-        <p>Jesteśmy by pomagać w IT.</p>
-        <div class="social-links d-flex justify-content-center">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-skype"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
-        </div>
-        <div class="container">
-          <div class="copyright">
-            <span>Copyright</span>
-            <strong class="px-1 sitename">Fundacja ASTRA</strong>
-            <span>All Rights Reserved</span>
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-box">
+              <h4>Obszar działania</h4>
+              <div class="services-list">
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Szkolenia IT</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span class="">Mentoring<br></span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span class="">Współpraca z firmami<br></span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span class="">Pomoc w rozmowach rekrutacyjnych</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="service-box">
+              <h4>Statut</h4>
+              <div class="download-catalog">
+                <a href="#"><i class="bi bi-filetype-pdf"></i><span>Statut Fundacji PDF</span></a>
+                <a href="#"><i class="bi bi-file-earmark-word"></i><span>Status Fundacji DOC</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>Masz pytania?</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+48 798 161 181</span></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@example.com">kontakt.fundacja.astra@gmail.com</a></p>
+            </div>
+
           </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you've purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Designed by
-            <a href="https://bootstrapmade.com/">BootstrapMade</a> Distribuited
-            by <a href="https://themewagon.com">ThemeWagon</a>
+
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/services/services-4.webp" alt="" class="img-fluid services-img">
+            <h3>Cele</h3>
+            <p>
+              Fundacja ASTRA powstała, aby wspierać rozwój, edukację i innowacje. Naszym celem jest tworzenie inicjatyw, które umożliwiają zdobywanie wiedzy, nowych umiejętności oraz dostęp do nowoczesnych technologii. Nasze główne cele:
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Promowanie nauki i technologii, zwłaszcza wśród dzieci i młodzieży. Organizacja warsztatów, kursów i wydarzeń edukacyjnych. Tworzenie materiałów wspierających rozwój osobisty i zawodowy. Wsparcie społeczności i równe szanse</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Pomoc w rozwoju osobistym i zawodowym osób z ograniczonym dostępem do edukacji lub technologii. Wspieranie inicjatyw społecznych i wolontariatu. Tworzenie programów mentoringowych i rozwojowych. Innowacje i technologia na rzecz dobra społecznego</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Wspieranie nowoczesnych technologii, które mogą pomagać ludziom i środowisku. Promowanie odpowiedzialnego i etycznego wykorzystania technologii. Tworzenie inicjatyw, które łączą naukę, biznes i organizacje społeczne. Budowanie społeczności i partnerstw</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Statute Section -->
+    <section id="statute" class="statute section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center content">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h2>Statut</h2>
+            <p class="lead">Szczegóły dotyczące naszej fundacji mogą Państwo znaleźć klikajac w poniższy plik:</p>
+            <div class="service-box">
+              <h4>Statut</h4>
+              <div class="download-catalog">
+                <a href="#"><i class="bi bi-filetype-pdf"></i><span>&nbsp;Statut Fundacji PDF</span></a><br><br>
+                <a href="#"><i class="bi bi-file-earmark-word"></i><span>&nbsp;Status Fundacji DOC</span></a>
+              </div>
+            </div><!-- End Services List -->
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <img src="assets/img/profile/profile-1.webp" alt="Portfolio Hero Image" class="img-fluid" data-aos="zoom-out" data-aos-delay="300">
+              <div class="shape-1"></div>
+              <div class="shape-2"></div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </section><!-- /Statute Section -->
 
-    <!-- Scroll Top -->
-    <a
-      href="#"
-      id="scroll-top"
-      class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <!-- Donations Section -->
+    <section id="donations" class="donations section light-background">
 
-    <!-- Preloader -->
-    <div id="preloader"></div>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Wsparcie i Darowizny</h2>
+        <p>Dzięki Waszemu wsparciu możemy realizować nasze projekty i zmieniać świat na lepsze. Istnieje kilka sposobów, w jaki możecie nam pomóc:</p>
+      </div><!-- End Section Title -->
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/typed.js/typed.umd.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <div class="container">
 
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-money-bill-trend-up"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Regularne darowizny</h3>
+              </a>
+
+              <p>Trwałe wsparcie pomaga nam w długoterminowym planie i rozwoju fundacji.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-money-bill-1"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Jednorazowe wsparcie</h3>
+              </a>
+              <p>Każda kwota jest dla nas cenna!</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-handshake"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Wolontariat</h3>
+              </a>
+              <p>Poświęć swój czas i umiejętności, aby pomóc tym, którzy tego potrzebują.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Donations Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="feature-item" data-aos="fade-up">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="feature-content">
+                <h3>Partnerstwo</h3>
+                <p> Chcemy zbudować jedną z największych społeczności studentów/juniorów
+                  w Polsce. Jezeli twoja firma chciałaby zacząć wspólprace, prosimy
+                  kontakt o mailowy: kontakt.fundacja.astra@gmail.com, lub skorzystać
+                  z formularza kontaktowego na naszej stronie.</p>
+                <ul class="feature-list">
+                  <li><i class="bi bi-check2-circle"></i> Rzetelne podejście </li>
+                  <li><i class="bi bi-check2-circle"></i> Realna Zmiana </li>
+                  <li><i class="bi bi-check2-circle"></i> Pomoc innym </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-6" data-aos="zoom-out" data-aos-delay="100">
+              <img src="assets/img/illustration/illustration-8.webp" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Kontakt</h2>
+        <p>Chcesz się z nami skontaktować? Masz pytanie dotyczące naszych działań? Skorzystaj z poniższego formularza lub napisz do nas bezpośrednio na adres e-mail: kontakt.fundacja.astra@gmail.com.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Zadzwoń do nas</h3>
+                <p>+48 798 161 181</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Napisz do nas</h3>
+                <p>kontakt.fundacja.astra@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Imię" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Temat" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Wiadomość" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Wczytywanie</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Twoja wiadomość została wysłana!</div>
+
+                  <button type="submit">Wyślij</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Fundacja ASTRA</h3>
+      <p>Jesteśmy by pomagać w IT.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href=""><i class="bi bi-tiktok"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Fundacja ASTRA.</strong> <span>All Rights Reserved</span>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
