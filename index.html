@@ -461,12 +461,17 @@
 
             <div class="col-lg-8">
               <form
-                action="forms/contact.php"
-                method="post"
+                action="https://api.web3forms.com/submit"
+                method="POST"
                 class="php-email-form"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="73ee2f98-22d5-4258-ae6c-f01e5d74f03a"
+                />
                 <div class="row gy-4">
                   <div class="col-md-6">
                     <input
@@ -514,7 +519,11 @@
                     <div class="sent-message">
                       Twoja wiadomość została wysłana!
                     </div>
-
+                    <input
+                      type="hidden"
+                      name="redirect"
+                      value="https://web3forms.com/success"
+                    />
                     <button type="submit">Wyślij</button>
                   </div>
                 </div>
